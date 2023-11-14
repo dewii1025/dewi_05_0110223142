@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dewi Fatimah A</title>
+<style>
+    label{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px;
+}
+
+.btn{
+    margin-left: 50%;
+}
+
+.form-group{
+    margin-bottom: 20px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+
+.text{
+    width: 15%;
+}
+
+.ukuran{
+    width: 14%;
+}
+
+.fomulir{
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    height: 37em;
+    width: 40%;
+    margin-left: 25em;
+    
+}
+
+.fomulir h1{
+    text-align: center;
+}
+</style>
+</head>
+<body>
+    <fieldset>
+    <legend>From Registrasi Rekreasi Kuliner</legend>
+    <form action="index.html" method="post">
+        <div class="form-group">
+            <label for="" class="text">Nama Tempat Wista :</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label for="" class="text">Jenis Wisata :</label>
+            <select style="height: 25px; width: 14%;"> 
+                <option>Jenis Wisata</option>
+                <option>Kedai Kopi</option>
+                <option>Pantai</option>
+                <option>Kebun Binatang</option>
+             </select >
+        </div>
+        <div class="form-group">
+            <label for="" class="text">Deskripsi Wisata :</label>
+            <textarea class="ukuran" name="rivew" id="" cols="14" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="" class="text">Kontak Person :</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label for="" class="text">Email :</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label for="" class="text">Alamat Web :</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label for="" class="text">Alamat Lengkap :</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label for="" class="text">Longtitude,logitude</label>
+            <input type="text">
+        </div>
+        <input class="btn" type="submit" value="Daftar">
+        <input class="btn1" type="submit" value="Batal">
+ </form>
+</fieldset>
+</body>
+</html>
